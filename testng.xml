@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testscripts.smoke.functional.LibraryTest"/>
+      <class name="testscripts.smoke.ui.DashboardVerificationTest"/>
+      <class name="testscripts.smoke.functional.CreateQuestionTest"/>
+      <class name="testscripts.smoke.ui.LoginPageVerficationForValidCredsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
